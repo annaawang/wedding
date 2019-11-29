@@ -9,6 +9,7 @@
 */
 /* Base files. */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url("https://use.typekit.net/jyq7rds.css");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -636,15 +637,67 @@ form {
   margin-bottom: 2.5rem; }
 
 /* Custom */
+.font-serif, .font-h1, .font-h2, .font-h3 {
+  font-family: "moderno-fb", serif;
+  font-weight: 700; }
+
+.font-h1 {
+  font-size: 3.75rem; }
+
+.font-h2 {
+  font-size: 2.5rem; }
+
+.font-h3 {
+  font-size: 1.76rem; }
+
+.font-body {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 400;
+  font-size: 1.06rem; }
+
+.font-caption {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 300;
+  font-size: 0.94rem; }
+
+.font-detail-light {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 300;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.9px; }
+
+.font-detail-heavy {
+  font-family: "moderno-fb", serif;
+  font-weight: 700;
+  font-size: 0.94rem;
+  text-transform: uppercase;
+  letter-spacing: 0.9px; }
+
 .nav {
-  height: 150px;
   background-color: #FFFFFF;
-  width: 100%; }
+  padding: 3rem 3rem;
+  margin-bottom: 1.5rem; }
   .nav .nav-left {
     float: left; }
   .nav .nav-right {
     float: right; }
   .nav .nav__link-list {
-    list-style: none; }
+    list-style: none;
+    margin-bottom: 0; }
     .nav .nav__link-list li {
-      display: inline-block; }
+      display: inline-block;
+      font-family: "neue-haas-grotesk-display", sans-serif;
+      color: #222222;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1.6px;
+      font-weight: 500;
+      padding: 0 3rem;
+      margin-bottom: 0; }
+
+.home__img-container {
+  padding: 0 5rem;
+  text-align: center; }
+  .home__img-container img {
+    width: 100%; }

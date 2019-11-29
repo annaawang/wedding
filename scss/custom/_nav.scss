@@ -1,7 +1,7 @@
 .nav {
-  height: 150px;
   background-color: $color-white;
-  width: 100%;
+  padding: 3rem 3rem;
+  margin-bottom: 1.5rem;
   .nav-left {
     float: left;
   }
@@ -10,8 +10,23 @@
   }
   .nav__link-list {
     list-style: none;
+    margin-bottom: 0;
+    a {
+      &:hover {
+
+      }
+    }
+
     li {
       display: inline-block;
+      font-family: $font-sans;
+      color: $color-black;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1.6px;
+      font-weight: 500;
+      padding: 0 3rem;
+      margin-bottom: 0;
     }
   }
 }

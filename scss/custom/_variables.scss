@@ -1,2 +1,15 @@
 // Colors
 $color-white: #FFFFFF;
+$color-black: #222222;
+
+// Typography
+@import url("https://use.typekit.net/jyq7rds.css");
+$font-serif: 'moderno-fb', serif;
+$font-sans: 'neue-haas-grotesk-display', sans-serif;
+
+$font-size-l: 3.75rem;
+$font-size-m: 2.5rem;
+$font-size-s: 1.76rem;
+$font-size-xs: 1.06rem;
+$font-size-xxs: 0.94rem;
+$font-size-xxxs: 0.75rem;

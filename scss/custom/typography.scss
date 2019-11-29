@@ -1,0 +1,47 @@
+.font-serif {
+  font-family: $font-serif;
+  font-weight: 700;
+}
+
+.font-h1 {
+  @extend .font-serif;
+  font-size: $font-size-l;
+}
+
+.font-h2 {
+  @extend .font-serif;
+  font-size: $font-size-m;
+}
+
+.font-h3 {
+  @extend .font-serif;
+  font-size: $font-size-s;
+}
+
+.font-body {
+  font-family: $font-sans;
+  font-weight: 400;
+  font-size: $font-size-xs;
+}
+
+.font-caption {
+  font-family: $font-sans;
+  font-weight: 300;
+  font-size: $font-size-xxs;
+}
+
+.font-detail-light {
+  font-family: $font-sans;
+  font-weight: 300;
+  font-size: $font-size-xxxs;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+}
+
+.font-detail-heavy {
+  font-family: $font-serif;
+  font-weight: 700;
+  font-size: $font-size-xxs;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+}
