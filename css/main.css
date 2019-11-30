@@ -648,31 +648,41 @@ form {
   font-size: 2.5rem; }
 
 .font-h3 {
-  font-size: 1.76rem; }
+  font-size: 1.56rem;
+  margin-bottom: 1rem; }
 
 .font-body {
   font-family: "neue-haas-grotesk-display", sans-serif;
   font-weight: 400;
-  font-size: 1.06rem; }
+  font-size: 1.06rem;
+  max-width: 430px;
+  text-align: left;
+  letter-spacing: 0.3px;
+  margin-bottom: 0; }
 
 .font-caption {
   font-family: "neue-haas-grotesk-display", sans-serif;
   font-weight: 300;
-  font-size: 0.94rem; }
+  font-size: 0.94rem;
+  margin-bottom: 0; }
 
-.font-detail-light {
+.font-detail-light, .button {
   font-family: "neue-haas-grotesk-display", sans-serif;
   font-weight: 300;
-  font-size: 0.75rem;
+  font-size: 0.82rem;
   text-transform: uppercase;
-  letter-spacing: 0.9px; }
+  letter-spacing: 1.67px; }
 
 .font-detail-heavy {
   font-family: "moderno-fb", serif;
   font-weight: 700;
   font-size: 0.94rem;
   text-transform: uppercase;
-  letter-spacing: 0.9px; }
+  letter-spacing: 0.75px;
+  margin-bottom: 0; }
+
+html {
+  font-size: 16px; }
 
 .nav {
   background-color: #FFFFFF;
@@ -690,7 +700,7 @@ form {
     margin-bottom: 0; }
     .nav .nav__link-list a:hover li {
       transform: translateY(-2px);
-      border-bottom: 1px solid #E4CAC5; }
+      border-bottom: 1px solid #222222; }
     .nav .nav__link-list li {
       display: inline-block;
       font-family: "neue-haas-grotesk-display", sans-serif;
@@ -711,3 +721,58 @@ form {
   text-align: center; }
   .home__img-container img {
     width: 100%; }
+
+.container {
+  max-width: 1165px; }
+
+.spacing-top {
+  margin-top: 5rem; }
+
+.center {
+  text-align: center; }
+
+.center-p {
+  margin: auto; }
+
+.details__container {
+  padding-top: 10rem; }
+  .details__container .details__table {
+    margin: auto; }
+    .details__container .details__table td {
+      vertical-align: top;
+      border-bottom: none; }
+
+#map {
+  margin-top: 5rem;
+  height: 50rem;
+  background-color: #FDFCFC; }
+
+.accomodations__container {
+  margin-top: 8rem;
+  background-color: #FDFCFC;
+  padding: 8rem 0; }
+  .accomodations__container .accommodations__card {
+    margin: 0 5%; }
+
+.button {
+  border: 0.5px solid #2E4F66;
+  border-radius: 0;
+  width: 100%;
+  padding: 0.4rem;
+  height: auto;
+  color: #2E4F66;
+  font-weight: 400; }
+
+footer {
+  background-color: #FFFFFF;
+  padding: 5rem 0;
+  text-align: center; }
+  footer h3 {
+    font-family: "moderno-fb", serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.06rem;
+    letter-spacing: 0.85px;
+    margin-bottom: 0; }
+  footer .font-detail-light, footer .button {
+    letter-spacing: 1.67px; }

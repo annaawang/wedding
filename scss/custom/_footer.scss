@@ -1,0 +1,18 @@
+footer {
+  background-color: $color-white;
+  padding: 5rem 0;
+  text-align: center;
+
+  h3 {
+    font-family: $font-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: $font-size-xs;
+    letter-spacing: 0.85px;
+    margin-bottom: 0;
+  }
+  .font-detail-light {
+    letter-spacing: 1.67px;
+  }
+
+}

@@ -1,0 +1,26 @@
+.details__container {
+  padding-top: 10rem;
+  .details__table {
+    margin:auto;
+    td {
+      vertical-align: top;
+      border-bottom: none;
+    }
+  }
+}
+
+#map {
+  margin-top: 5rem;
+  height: 50rem;
+  background-color: $color-offwhite;
+}
+
+.accomodations__container {
+  margin-top: 8rem;
+  background-color: $color-offwhite;
+  padding: 8rem 0;
+
+  .accommodations__card {
+    margin: 0 5%;
+  }
+}
