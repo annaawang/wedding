@@ -676,15 +676,21 @@ form {
 
 .nav {
   background-color: #FFFFFF;
-  padding: 3rem 3rem;
-  margin-bottom: 1.5rem; }
+  padding: 3rem 8rem 0 7rem;
+  text-align: center; }
   .nav .nav-left {
     float: left; }
   .nav .nav-right {
     float: right; }
+  .nav .nav-middle {
+    display: inline-block;
+    width: 30%; }
   .nav .nav__link-list {
     list-style: none;
     margin-bottom: 0; }
+    .nav .nav__link-list a:hover li {
+      transform: translateY(-2px);
+      border-bottom: 1px solid #E4CAC5; }
     .nav .nav__link-list li {
       display: inline-block;
       font-family: "neue-haas-grotesk-display", sans-serif;
@@ -693,11 +699,15 @@ form {
       text-transform: uppercase;
       letter-spacing: 1.6px;
       font-weight: 500;
-      padding: 0 3rem;
-      margin-bottom: 0; }
+      padding-top: 3rem;
+      margin: 0 3rem 0.8rem 3rem;
+      border-bottom: 1px solid #FFFFFF;
+      transition: all 400ms ease; }
+  .nav .nav__active {
+    border-bottom: 1px solid #222222 !important; }
 
 .home__img-container {
-  padding: 0 5rem;
+  padding: 3rem 25rem 0 25rem;
   text-align: center; }
   .home__img-container img {
     width: 100%; }

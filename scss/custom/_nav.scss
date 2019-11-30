@@ -1,19 +1,27 @@
 .nav {
   background-color: $color-white;
-  padding: 3rem 3rem;
-  margin-bottom: 1.5rem;
+  padding: 3rem 8rem 0 7rem;
+  text-align: center;
   .nav-left {
     float: left;
   }
   .nav-right {
     float: right;
   }
+  .nav-middle {
+    display: inline-block;
+    width: 30%;
+  }
+
   .nav__link-list {
     list-style: none;
     margin-bottom: 0;
     a {
       &:hover {
-
+        li {
+          transform: translateY(-2px);
+          border-bottom: 1px solid $color-pink;
+        }
       }
     }
 
@@ -25,8 +33,14 @@
       text-transform: uppercase;
       letter-spacing: 1.6px;
       font-weight: 500;
-      padding: 0 3rem;
-      margin-bottom: 0;
+      padding-top: 3rem;
+      margin: 0 3rem 0.8rem 3rem;
+      border-bottom: 1px solid $color-white;
+      transition: all 400ms ease;
     }
+  }
+
+  .nav__active {
+    border-bottom: 1px solid $color-black !important;
   }
 }
