@@ -1,0 +1,17 @@
+.page-image__container {
+  padding: 5rem 0;
+  .page-image__left {
+    padding-top: 10rem;
+    .font-body {
+      margin-bottom: 2rem;
+    }
+    .button {
+      width: 50%;
+    }
+  }
+  .page-image__right {
+    img {
+      width: 100%;
+    }
+  }
+}

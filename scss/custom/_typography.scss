@@ -6,6 +6,7 @@
 .font-h1 {
   @extend .font-serif;
   font-size: $font-size-l;
+  margin-bottom: 0.8rem;
 }
 
 .font-h2 {

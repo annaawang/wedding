@@ -642,7 +642,8 @@ form {
   font-weight: 700; }
 
 .font-h1 {
-  font-size: 3.75rem; }
+  font-size: 3.75rem;
+  margin-bottom: 0.8rem; }
 
 .font-h2 {
   font-size: 2.5rem; }
@@ -700,7 +701,7 @@ html {
     margin-bottom: 0; }
     .nav .nav__link-list a:hover li {
       transform: translateY(-2px);
-      border-bottom: 1px solid #222222; }
+      border-bottom: 1px solid #2E4F66; }
     .nav .nav__link-list li {
       display: inline-block;
       font-family: "neue-haas-grotesk-display", sans-serif;
@@ -714,7 +715,7 @@ html {
       border-bottom: 1px solid #FFFFFF;
       transition: all 400ms ease; }
   .nav .nav__active {
-    border-bottom: 1px solid #222222 !important; }
+    border-bottom: 1px solid #2E4F66 !important; }
 
 .home__img-container {
   padding: 3rem 25rem 0 25rem;
@@ -754,6 +755,11 @@ html {
   .accomodations__container .accommodations__card {
     margin: 0 5%; }
 
+.details__text {
+  padding: 3rem 4rem 0rem 4rem; }
+  .details__text p {
+    margin-bottom: 0.5rem; }
+
 .button {
   border: 0.5px solid #2E4F66;
   border-radius: 0;
@@ -764,6 +770,7 @@ html {
   font-weight: 400; }
 
 footer {
+  border-top: 0.5px solid #FDFCFC;
   background-color: #FFFFFF;
   padding: 5rem 0;
   text-align: center; }
@@ -776,3 +783,24 @@ footer {
     margin-bottom: 0; }
   footer .font-detail-light, footer .button {
     letter-spacing: 1.67px; }
+
+.page-image__container {
+  padding: 5rem 0; }
+  .page-image__container .page-image__left {
+    padding-top: 10rem; }
+    .page-image__container .page-image__left .font-body {
+      margin-bottom: 2rem; }
+    .page-image__container .page-image__left .button {
+      width: 50%; }
+  .page-image__container .page-image__right img {
+    width: 100%; }
+
+.story__image-container {
+  padding: 0 3rem; }
+  .story__image-container .story__image {
+    padding: 4rem 2rem;
+    text-align: center; }
+    .story__image-container .story__image img {
+      width: 100%; }
+    .story__image-container .story__image p {
+      margin: 1rem 0; }
