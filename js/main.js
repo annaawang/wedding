@@ -1,3 +1,44 @@
+$(document).ready(function(){
+
+  $("#anna").click(function() {
+    var $j = $('#jonathan img');
+    var $jlabel = $('#jonathan p');
+    var $jtext = $('#jonathan-text');
+
+    if ($j.hasClass('active')) {
+      $j.removeClass('active');
+      $jlabel.removeClass('active');
+      $jtext.addClass('hidden').removeClass('active');
+    } else {
+
+    }
+
+    $("#anna-text").removeClass("hidden").addClass('active');
+    $("#anna img").addClass("active");
+    $("#anna p").addClass("active");
+
+  });
+
+  $("#jonathan").click(function() {
+    var $a = $('#anna img');
+    var $alabel = $('#anna p');
+    var $atext = $('#anna-text');
+
+    if ($a.hasClass('active')) {
+      $a.removeClass('active');
+      $alabel.removeClass('active');
+      $atext.addClass('hidden').removeClass('active');
+    } else {
+
+    }
+    $("#jonathan-text").removeClass("hidden").addClass('active');
+    $("#jonathan img").addClass("active");
+    $("#jonathan p").addClass("active");
+  });
+
+
+})
+
 function initMap() {
   var center = {lat: 30.293261, lng: -97.916580};
 

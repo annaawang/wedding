@@ -4,12 +4,77 @@
   .story__image {
     padding: 4rem 2rem;
     text-align: center;
+
     img {
       width: 100%;
+      opacity: 30%;
+      transition: all 400ms ease;
+      cursor: pointer;
     }
     p {
       margin: 1rem 0;
+      opacity: 30%;
+      transition: all 400ms ease;
+    }
+
+    &:hover {
+      img {
+        opacity: 80%;
+      }
+      p {
+        opacity: 80%;
+      }
     }
   }
 
+}
+
+.active {
+  opacity: 100% !important;
+  transition: all 400ms ease;
+  min-height: 20px;
+}
+
+.story__text-container {
+  padding-bottom: 4rem;
+  .story__text {
+    margin: auto;
+  }
+  .hidden {
+    max-height: 0;
+    opacity: 0;
+    -webkit-transition: all 400ms ease;
+    transition: all 400ms ease;
+  }
+}
+
+.travels__container {
+  padding: 2rem 0;
+  background-color: $color-offwhite;
+  .font-body {
+    margin-bottom: 2rem;
+  }
+  .travels__place {
+    position: relative;
+    padding: 2rem 0;
+    p {
+      display: inline-block;
+      margin-left: 0.5rem;
+    }
+  }
+}
+
+#travel-02 {
+  margin-top: 5.5rem;
+}
+
+#travel-03 {
+  margin-left: 3.4rem;
+}
+
+#travel-04 {
+  text-align: center;
+  p {
+    text-align: left;
+  }
 }

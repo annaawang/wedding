@@ -801,6 +801,53 @@ footer {
     padding: 4rem 2rem;
     text-align: center; }
     .story__image-container .story__image img {
-      width: 100%; }
+      width: 100%;
+      opacity: 30%;
+      transition: all 400ms ease;
+      cursor: pointer; }
     .story__image-container .story__image p {
-      margin: 1rem 0; }
+      margin: 1rem 0;
+      opacity: 30%;
+      transition: all 400ms ease; }
+    .story__image-container .story__image:hover img {
+      opacity: 80%; }
+    .story__image-container .story__image:hover p {
+      opacity: 80%; }
+
+.active {
+  opacity: 100% !important;
+  transition: all 400ms ease;
+  min-height: 20px; }
+
+.story__text-container {
+  padding-bottom: 4rem; }
+  .story__text-container .story__text {
+    margin: auto; }
+  .story__text-container .hidden {
+    max-height: 0;
+    opacity: 0;
+    -webkit-transition: all 400ms ease;
+    transition: all 400ms ease; }
+
+.travels__container {
+  padding: 2rem 0;
+  background-color: #FDFCFC; }
+  .travels__container .font-body {
+    margin-bottom: 2rem; }
+  .travels__container .travels__place {
+    position: relative;
+    padding: 2rem 0; }
+    .travels__container .travels__place p {
+      display: inline-block;
+      margin-left: 0.5rem; }
+
+#travel-02 {
+  margin-top: 5.5rem; }
+
+#travel-03 {
+  margin-left: 3.4rem; }
+
+#travel-04 {
+  text-align: center; }
+  #travel-04 p {
+    text-align: left; }
