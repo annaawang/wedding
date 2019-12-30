@@ -1,4 +1,8 @@
 .nav {
+  @media (#{$bp-larger-than-tablet}) {
+    display: block;
+  }
+  display: none;
   background-color: $color-white;
   padding: 3rem 8rem 0 7rem;
   text-align: center;
@@ -42,5 +46,45 @@
 
   .nav__active {
     border-bottom: 1px solid $color-dark-blue !important;
+  }
+}
+
+.nav-mobile {
+  @media (#{$bp-larger-than-tablet}) {
+    display: none;
+  }
+  display: block;
+  &__menu {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    &-icon {
+
+    }
+  }
+  &__container {
+    display: none;
+    padding: 3rem 0;
+    &-links {
+      ul {
+        list-style: none;
+        text-align: center;
+        a {
+          text-decoration: none;
+        }
+        li {
+          display: block;
+          font-family: $font-sans;
+          color: $color-black;
+          font-size: 10px;
+          text-transform: uppercase;
+          letter-spacing: 1.6px;
+          font-weight: 500;
+          padding: 3rem 0;
+          margin: 0 3rem 0.8rem 3rem 0.8rem;
+          border-bottom: 1px solid $color-white;
+        }
+      }
+    }
   }
 }

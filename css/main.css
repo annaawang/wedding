@@ -639,7 +639,8 @@ form {
 /* Custom */
 .font-serif, .font-h1, .font-h2, .font-h3 {
   font-family: "moderno-fb", serif;
-  font-weight: 700; }
+  font-weight: 700;
+  letter-spacing: normal; }
 
 .font-h1 {
   font-size: 3.75rem;
@@ -686,9 +687,13 @@ html {
   font-size: 16px; }
 
 .nav {
+  display: none;
   background-color: #FFFFFF;
   padding: 3rem 8rem 0 7rem;
   text-align: center; }
+  @media (min-width: 750px) {
+    .nav {
+      display: block; } }
   .nav .nav-left {
     float: left; }
   .nav .nav-right {
@@ -717,11 +722,53 @@ html {
   .nav .nav__active {
     border-bottom: 1px solid #2E4F66 !important; }
 
+.nav-mobile {
+  display: block; }
+  @media (min-width: 750px) {
+    .nav-mobile {
+      display: none; } }
+  .nav-mobile__menu {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0; }
+  .nav-mobile__container {
+    display: none;
+    padding: 3rem 0; }
+    .nav-mobile__container-links ul {
+      list-style: none;
+      text-align: center; }
+      .nav-mobile__container-links ul a {
+        text-decoration: none; }
+      .nav-mobile__container-links ul li {
+        display: block;
+        font-family: "neue-haas-grotesk-display", sans-serif;
+        color: #222222;
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 1.6px;
+        font-weight: 500;
+        padding: 3rem 0;
+        margin: 0 3rem 0.8rem 3rem 0.8rem;
+        border-bottom: 1px solid #FFFFFF; }
+
 .home__img-container {
-  padding: 3rem 25rem 0 25rem;
+  margin: 3rem auto;
+  max-width: 960px;
   text-align: center; }
-  .home__img-container img {
-    width: 100%; }
+  .home__img-container .home-photo {
+    width: 100%;
+    display: none; }
+    @media (min-width: 750px) {
+      .home__img-container .home-photo {
+        display: block; } }
+  .home__img-container .home-photo-mobile {
+    margin: auto;
+    padding: 3rem 0;
+    width: 60%;
+    display: block; }
+    @media (min-width: 750px) {
+      .home__img-container .home-photo-mobile {
+        display: none; } }
 
 .container {
   max-width: 1165px; }

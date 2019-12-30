@@ -1,7 +1,21 @@
 .home__img-container {
-  padding: 3rem 25rem 0 25rem;
+  margin: 3rem auto;
+  max-width: $large-screen;
   text-align: center;
-  img {
+  .home-photo {
     width: 100%;
+    display: none;
+    @media (#{$bp-larger-than-tablet}) {
+      display: block;
+    }
+  }
+  .home-photo-mobile {
+    margin: auto;
+    padding: 3rem 0;
+    width: 60%;
+    display: block;
+    @media (#{$bp-larger-than-tablet}) {
+      display: none;
+    }
   }
 }

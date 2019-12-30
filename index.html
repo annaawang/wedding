@@ -18,10 +18,28 @@
   <!-- CSS -->
   <link rel="stylesheet" href="css/main.css">
   <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 
 </head>
 
 <main id="main-content">
+  <nav class="nav-mobile">
+    <div class="nav-mobile__menu">
+      <img class="nav-mobile__menu-icon" src="img/mobile.svg">
+      <img class="nav-mobile__menu-icon" src="img/mobile-close.svg" style="display:none;">
+    </div>
+    <div class="nav-mobile__container">
+      <div class="nav-mobile__container-links">
+        <ul>
+          <a href="/details/"><li>When & Where</li></a>
+          <a href="/our-story/"><li>Our Story</li></a>
+          <a href="/registry/"><li>Registry</li></a>
+          <a href="/rsvp/"><li>RSVP</li></a>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <nav class="nav">
     <div class="nav-left">
       <ul class="nav__link-list">
@@ -42,5 +60,6 @@
 
   <div class="home__img-container">
     <img class="home-photo" src="img/home.jpg" alt="Photo of Anna & Jonathan" />
+    <img class="home-photo-mobile" src="img/mobile-home.svg">
   </div>
 </main>
