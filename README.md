@@ -8,7 +8,7 @@ To set up the site on your local machine, follow these steps:
 1. Clone the site. [More detail on this](https://help.github.com/articles/cloning-a-repository/).
 
     ```sh
-    git clone https://github.com/uscensusbureau/opportunity.git
+    git clone https://github.com/annaawang/wedding.git
     ```
 
 1. Run the site!
