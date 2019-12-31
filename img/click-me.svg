@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="63px" viewBox="0 0 48 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Our-Story" transform="translate(-160.000000, -515.000000)">
+            <g id="Group-3" transform="translate(153.000000, 515.000000)">
+                <g id="Group-2" transform="translate(12.377498, 15.556867)" stroke="#222222" stroke-width="0.5">
+                    <path d="M4.99756158,-5.68434189e-14 C-2.28720752,18.6735214 -2.8861508,32.0576056 11.8987057,46.6833902" id="Path-2"></path>
+                    <path d="M4.48333134,46.0837454 C16.9490632,48.9681764 8.42807589,45.3775159 15.8173145,39.6427937" id="Path-3"></path>
+                </g>
+                <text id="click-me!" font-family="BradleyHandITCTT-Bold, Bradley Hand" font-size="11" font-style="expanded" font-weight="bold" letter-spacing="0.55" fill="#222222">
+                    <tspan x="7.591" y="9">click me!</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

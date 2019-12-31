@@ -19,14 +19,13 @@
   <link rel="stylesheet" href="../css/main.css">
   <!-- Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script type="text/javascript" src="/js/main.js"></script>
 </head>
 
 <main id="main-content">
   <nav class="nav-mobile">
     <div class="nav-mobile__menu">
-      <img class="nav-mobile__menu-icon" src="img/mobile.svg">
-      <img class="nav-mobile__menu-icon" src="img/mobile-close.svg" style="display:none;">
+      <img class="nav-mobile__menu-icon" src="/img/mobile.svg">
+      <img class="nav-mobile__menu-icon" src="/img/mobile-close.svg" style="display:none;">
     </div>
     <div class="nav-mobile__container">
       <div class="nav-mobile__container-links">
@@ -61,7 +60,7 @@
     <div class="row  details__text">
       <div class="twelve columns">
         <h1 class="font-h1">Wedding & Reception</h1>
-        <p class="font-body">Our wedding will take place on Saturday, April 25, 2020. We’ll have a short ceremony at Chapel Dulcinea followed by a lunch reception and lake activities in the afternoon.</p>
+        <p class="font-body">Our wedding will take place on Saturday, April 25, 2020. We’ll have a short ceremony at Chapel Dulcinea followed by a lunch reception and lake activities in the afternoon.</p><br>
         <p class="font-body">Dress code for the ceremony is semi-formal, but feel free to bring a casual change of clothes for the afternoon.</p>
       </div>
     </div>
@@ -71,31 +70,34 @@
         <table class="details__table">
           <tr>
             <td>
-              <p class="font-body">09:00 - 10:00 AM</p>
+              <p class="font-detail-light">09:00 - 10:00 AM</p>
             </td>
             <td>
-              <h3 class="font-h3">Ceremony</h3>
-              <p class="font-body">Chapel Dulcinea<br>16221 Crystal Hills Dr.<br>Austin, TX 78737</p>
-            </td>
-          </tr>
-
-          <tr>
-            <td>
-              <p class="font-body">11:30 AM - 1:00 PM</p>
-            </td>
-            <td>
-              <h3 class="font-h3">Lunch Reception</h3>
-              <p class="font-body">4828 Eck Lane<br>Austin, TX 78734</p>
+              <h3 class="details__table-title">Ceremony</h3>
+              <p class="details__table-location">Chapel Dulcinea</p>
+              <p class="details__table-address">16221 Crystal Hills Dr.<br>Austin, TX 78737</p>
             </td>
           </tr>
 
           <tr>
             <td>
-              <p class="font-body">1:00 - 4:00 PM</p>
+              <p class="font-detail-light">11:30 AM - 1:00 PM</p>
             </td>
             <td>
-              <h3 class="font-h3">Lake Activities</h3>
-              <p class="font-body">4828 Eck Lane<br>Austin, TX 78734</p>
+              <h3 class="details__table-title">Lunch Reception</h3>
+              <p class="details__table-location">Lake Travis Airbnb</p>
+              <p class="details__table-address">4828 Eck Lane<br>Austin, TX 78734</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <p class="font-detail-light">1:00 - 4:00 PM</p>
+            </td>
+            <td>
+              <h3 class="details__table-title">Lake Activities</h3>
+              <p class="details__table-location">Lake Travis Airbnb</p>
+              <p class="details__table-address">4828 Eck Lane<br>Austin, TX 78734</p>
             </td>
           </tr>
         </table>
@@ -119,21 +121,21 @@
         <h3 class="font-h3">Vintage Villas Hotel</h3>
         <p class="font-body">4209 Eck Lane<br>Austin, TX 78734</p>
         <p class="font-detail-light">$200 / NIGHT</p>
-        <a class="button href="#" target="_blank">Details</a>
+        <a class="button" href="https://www.vintagevillas.com/" target="_blank">Details</a>
       </div>
 
       <div class="accommodations__card three columns">
         <h3 class="font-h3">Holiday Inn Express</h3>
         <p class="font-body">15707 Oak Grove Blvd<br> Lakeway, TX 78734</p>
         <p class="font-detail-light">$150 / NIGHT</p>
-        <a class="button href="#" target="_blank">Details</a>
+        <a class="button" href="https://www.ihg.com/holidayinnexpress/hotels/us/en/lakeway/ausog/hoteldetail" target="_blank">Details</a>
       </div>
 
       <div class="accommodations__card three columns">
         <h3 class="font-h3">Suggested Airbnbs</h3>
         <p class="font-body">Browse our curated list of nearby Airbnbs</p>
         <p class="font-detail-light">$ - $$</p>
-        <a class="button" href="#" target="_blank">Details</a>
+        <a class="button" href="https://www.airbnb.com/wishlists/635818202/join?invite_code=ADPZHFDN&inviter_id=61479913" target="_blank">Details</a>
       </div>
     </div>
   </div>
@@ -143,14 +145,13 @@
   <div class="container">
     <div class="row">
       <div class="twelve columns">
-        <h3>Anna & Jonathan</h3>
-        <p class="font-detail-light">April 25, 2020</p>
+        <img src="/img/footer.svg" alt="">
       </div>
     </div>
   </div>
 </footer>
 
-<script type="text/javascript" src="../js/main.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
 <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDA4bgBuANnir0sJXgJ2hdupDbSx4ZMf9Y&callback=initMap">
 </script>

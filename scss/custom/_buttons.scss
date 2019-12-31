@@ -7,8 +7,10 @@
   @extend .font-detail-light;
   color: $color-dark-blue;
   font-weight: 400;
+  transition: 400ms all;
 
   &:hover {
-
+    background-color: $color-dark-blue;
+    color: $color-white;
   }
 }

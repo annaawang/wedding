@@ -1,10 +1,30 @@
 .story__image-container {
-  padding: 0 3rem;
-
+  padding: 0 1rem;
+  @media (#{$bp-larger-than-tablet}) {
+    padding: 0 3rem;
+  }
+  #click {
+    position:absolute;
+    top: 12rem;
+    @media (#{$bp-larger-than-tablet}) {
+      top: 10rem;
+    }
+  }
+  #anna {
+    float: left;
+  }
+  #jonathan {
+    float: right;
+  }
   .story__image {
-    padding: 4rem 2rem;
+    padding: 4rem 0;
     text-align: center;
-
+    width: 48%;
+    display:inline-block;
+    @media (#{$bp-larger-than-tablet}) {
+      padding: 4rem 2rem;
+      width: 43%;
+    }
     img {
       width: 100%;
       opacity: 30%;
@@ -55,8 +75,16 @@
     margin-bottom: 2rem;
   }
   .travels__place {
-    position: relative;
     padding: 2rem 0;
+    @media (#{$bp-larger-than-tablet}) {
+      position: relative;
+    }
+    img {
+      width: 100%;
+      @media (#{$bp-larger-than-tablet}) {
+        width: auto;
+      }
+    }
     p {
       display: inline-block;
       margin-left: 0.5rem;
@@ -64,17 +92,19 @@
   }
 }
 
-#travel-02 {
-  margin-top: 5.5rem;
-}
+@media (#{$bp-larger-than-tablet}) {
+  #travel-02 {
+    margin-top: 5.5rem;
+  }
 
-#travel-03 {
-  margin-left: 3.4rem;
-}
+  #travel-03 {
+    margin-left: 3.4rem;
+  }
 
-#travel-04 {
-  text-align: center;
-  p {
-    text-align: left;
+  #travel-04 {
+    text-align: center;
+    p {
+      text-align: left;
+    }
   }
 }

@@ -3,7 +3,10 @@
 }
 
 .spacing-top {
-  margin-top: 5rem;
+  margin-top: 3rem;
+  @media (#{$bp-larger-than-tablet}) {
+    margin-top: 5rem;
+  }
 }
 
 .center {

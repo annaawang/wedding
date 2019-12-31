@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $(".nav-mobile__menu").click(function() {
-    $(".nav-mobile__container").slideToggle(400, "swing", function(){});
+    $(".nav-mobile__container").slideToggle(400, "swing");
     $(".nav-mobile__menu-icon").toggle();
     $(".home-photo-mobile").toggle();
   });
