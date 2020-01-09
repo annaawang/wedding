@@ -952,6 +952,9 @@ footer {
     .story__image-container .story__image:hover p {
       opacity: 80%; }
 
+#jonathan-text img {
+  width: 100%; }
+
 .active {
   opacity: 100% !important;
   transition: all 400ms ease;
