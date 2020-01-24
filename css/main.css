@@ -700,11 +700,14 @@ html {
 .nav {
   display: none;
   background-color: #FFFFFF;
-  padding: 3rem 8rem 0 7rem;
+  padding: 3rem 8rem 0 8rem;
   text-align: center; }
   @media (min-width: 750px) {
     .nav {
       display: block; } }
+  @media only screen and (max-width: 1200px) and (min-width: 765px) {
+    .nav {
+      padding: 3rem 3rem 0 3rem; } }
   .nav .nav-left {
     float: left; }
   .nav .nav-right {

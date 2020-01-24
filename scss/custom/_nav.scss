@@ -2,9 +2,12 @@
   @media (#{$bp-larger-than-tablet}) {
     display: block;
   }
+  @media only screen and (max-width:1200px) and (min-width:765px) {
+    padding: 3rem 3rem 0 3rem;
+  }
   display: none;
   background-color: $color-white;
-  padding: 3rem 8rem 0 7rem;
+  padding: 3rem 8rem 0 8rem;
   text-align: center;
   .nav-left {
     float: left;
